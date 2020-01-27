@@ -9,15 +9,12 @@
         margin: 0 10%;
     }
 
-    body {
-        background-color: #fff7f7;
-    }
 
     #intro,
     #navbar,
     #footer,
     #team {
-        margin: 0 10%;
+        margin: 0;
         background-color: white;
     }
 
@@ -28,12 +25,11 @@
     #navbar {
         margin-top: 7%;
     }
+    .container {
+        width: 100%;
+    }
 </style>
 <div class="container">
-    <div id="navbar">
-        <marquee>NAVBAR HERE</marquee>
-    </div>
-    <br>
     <div id="intro">
         <div class="centered">
             <h1>-Our Vision-</h1>
@@ -61,7 +57,11 @@
     </div>
     <br>
     <div id="footer">
-        <marquee>FOOTER HERE</marquee>
+        <p>Contact Us</p>
+        <pre>
+    Email-id: brand_name@gmail.com
+    Phone: +91-8632827058
+        </pre>
     </div>
 </div>
 {% endblock content%}
